@@ -1,0 +1,128 @@
+/* reset css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    /* 10px */
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+    font-family: "Roboto", sans-serif;
+}
+/*  */
+.container{
+    border: 2px solid red;
+    margin: 0 auto;
+    max-width: 1320px;
+    background-color: rgb(255, 237, 250);
+    padding: 0;
+    position: relative;
+    z-index: 0;
+    height: 1000rem;
+    
+}
+.title-shop{
+    width: 40rem;
+    font-size: 3rem;
+    background-color: pink;
+    text-shadow: 3px -1px 1px chocolate;
+}
+/* content */
+
+/* left */
+.content-element-left{
+    /* border: 2px solid purple; */
+    width: 25%;
+    height: 76rem;
+    position: sticky;
+    top: 0rem;
+    z-index: 10;
+}
+
+/* left */
+.controller-left{
+    margin: 0 2rem;
+    height: 76rem;
+    background-color: rgb(251, 213, 219);
+    padding: 2rem;
+}
+.controller-left-main h2{
+    font-size: 2.5rem;
+}
+/* left form */
+
+.form-left{
+    outline: none;
+    height: 4rem;
+}
+.form-left:hover{
+    border: 3px solid black;
+}
+#descript-product{
+    height: 8rem;
+}
+/* button */
+.btn-add, .btn-clear, .btn-delete{
+    font-size: 2.2rem;
+    width: 8rem;
+}
+#descript-div{
+    margin-bottom: 5rem;
+}
+
+/* right */
+.nav-content{
+    width: 75%;
+    /* height: 100%; */
+    border: 2px solid black;
+    border-top: transparent;
+    border-right: transparent;
+    border-bottom: transparent;
+    position: absolute;
+    right: 0;
+    z-index: 0;
+}
+
+/* filter */
+.filter-nav{
+    padding: 2rem;
+    width: 70rem;
+}
+#btn-filter{
+    width: 10rem;
+    background-color: rgb(251, 213, 219);
+    height: 3.6rem;
+    border: 2px solid black;
+    font-size: 1.5rem;
+    color: white;
+}
+
+/* list item */
+.list-product{
+    padding: 2rem;
+    /* border: 2px solid orange; */
+    /* justify-content: space-between; */
+    
+}
+
+.list-product-element{
+    border: 2px solid  hotpink;
+    width: 28.5rem;
+    margin: 1rem;
+}
+.product-element-img{
+    width: 28rem;
+    overflow: hidden;
+}
+
+.product-element-img img{
+    display: block;
+    width: 100%;
+    
+}
+.product-element-content{
+    background-color: pink;
+}
